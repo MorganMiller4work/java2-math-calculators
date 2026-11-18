@@ -46,4 +46,21 @@ public class Messages {
         displayMessage("Thank you for using Michael's Polynomial Differentiation Calculator.\n"
                 + "We hope it was useful!");
     }
+
+    /**
+     * Displays instructions for using the distance calculator.
+     */
+    public static void distanceGreet() {
+        displayMessage("Welcome to The Distance Calculator");
+        System.out.println("Enter calculations in the format: [Latitude],[Longitude]");
+        System.out.println("Example: 51.5074, -0.1278\n");
+    }
+
+    /**
+     * Displays the distance calculator's farewell message.
+     */
+    public static void distanceGoodbye() {
+        displayMessage("Thank you for using The Distance Calculator");
+    }
+
 }
