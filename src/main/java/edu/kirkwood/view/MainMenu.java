@@ -9,6 +9,7 @@ import edu.kirkwood.controller.xavian.HalfLifeCalculator;
 import edu.kirkwood.controller.oleksiy.QuadraticEquationCalculator;
 import edu.kirkwood.controller.Jade.DecayCalculator;
 import edu.kirkwood.controller.zach.BoosterPackCalculator;
+import edu.kirkwood.controller.morgan.DistanceCalculator;
 
 import static edu.kirkwood.view.UIUtility.printMenu;
 import static edu.kirkwood.view.UserInput.getInt;
@@ -28,6 +29,7 @@ public class MainMenu {
                 "OFed's Quadratic Equation Calculator",
                 "Jade's Exponential Decay Calculator",
                 "Zach's Pokemon Booster Pack Calculator",
+                "Morgan's Distance Calculator",
                 "Quit"
         };
         while(true) {
@@ -60,6 +62,9 @@ public class MainMenu {
                     break;
                 case 9:
                     BoosterPackCalculator.start();
+                    break;
+                case 10:
+                    DistanceCalculator.start();
                     break;
                 default:
                     return;

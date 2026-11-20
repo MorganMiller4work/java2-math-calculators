@@ -11,6 +11,9 @@ import static edu.kirkwood.view.UIUtility.displayError;
 public class UserInput {
     private static Scanner scanner = new Scanner(System.in);
 
+    public  static void resetScanner(){
+        scanner = new Scanner(System.in);
+    }
     /**
      * Get an integer from the user
      * @param prompt The question to ask the user
